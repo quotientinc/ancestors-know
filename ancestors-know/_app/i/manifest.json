@@ -1,0 +1,408 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout",
+      ".svelte-kit/runtime/components/error",
+      "src/routes/artists/joelle-joyner/index",
+      "src/routes/artists/moira-pernambuco/index",
+      "src/routes/artists/monica-rickert-bolter/index",
+      "src/routes/artists/paige-pettibon/index",
+      "src/routes/artists/rodslen-brown/index",
+      "src/routes/artists/storme-webber/index",
+      "src/routes/from-the-curator/index",
+      "src/routes/index",
+      "src/routes/reflections/afro-indigenous-relations-in-a-reimagined-future/index",
+      "src/routes/reflections/art-gender-and-identity/index",
+      "src/routes/reflections/black-native-identity-and-futurity/index",
+      "src/routes/reflections/motherhood/index",
+      "src/routes/resources/index"
+    ]
+  },
+  "src/routes/__layout": {
+    "file": "pages/__layout.js",
+    "src": "src/routes/__layout",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js"
+    ],
+    "css": [
+      "assets/pages/__layout.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  ".svelte-kit/runtime/components/error": {
+    "file": "error.js",
+    "src": ".svelte-kit/runtime/components/error",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/artists/joelle-joyner/index": {
+    "file": "pages/artists/joelle-joyner/index.js",
+    "src": "src/routes/artists/joelle-joyner/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_lg-share.js",
+      "_ArtistsMenu.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/artists/joelle-joyner/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/artists/moira-pernambuco/index": {
+    "file": "pages/artists/moira-pernambuco/index.js",
+    "src": "src/routes/artists/moira-pernambuco/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_lg-share.js",
+      "_ArtistsMenu.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/artists/moira-pernambuco/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/artists/monica-rickert-bolter/index": {
+    "file": "pages/artists/monica-rickert-bolter/index.js",
+    "src": "src/routes/artists/monica-rickert-bolter/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_lg-share.js",
+      "_ArtistsMenu.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/artists/joelle-joyner/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/artists/paige-pettibon/index": {
+    "file": "pages/artists/paige-pettibon/index.js",
+    "src": "src/routes/artists/paige-pettibon/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_lg-share.js",
+      "_ArtistsMenu.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/artists/joelle-joyner/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/artists/rodslen-brown/index": {
+    "file": "pages/artists/rodslen-brown/index.js",
+    "src": "src/routes/artists/rodslen-brown/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_lg-share.js",
+      "_lg-thumbnail.js",
+      "_ArtistsMenu.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/artists/rodslen-brown/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/artists/storme-webber/index": {
+    "file": "pages/artists/storme-webber/index.js",
+    "src": "src/routes/artists/storme-webber/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_lg-share.js",
+      "_ArtistsMenu.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/artists/storme-webber/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/from-the-curator/index": {
+    "file": "pages/from-the-curator/index.js",
+    "src": "src/routes/from-the-curator/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/from-the-curator/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/index": {
+    "file": "pages/index.js",
+    "src": "src/routes/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_Reflections.js",
+      "_lg-share.js",
+      "_lg-thumbnail.js"
+    ],
+    "css": [
+      "assets/pages/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/reflections/afro-indigenous-relations-in-a-reimagined-future/index": {
+    "file": "pages/reflections/afro-indigenous-relations-in-a-reimagined-future/index.js",
+    "src": "src/routes/reflections/afro-indigenous-relations-in-a-reimagined-future/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_Reflections.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/reflections/black-native-identity-and-futurity/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/reflections/art-gender-and-identity/index": {
+    "file": "pages/reflections/art-gender-and-identity/index.js",
+    "src": "src/routes/reflections/art-gender-and-identity/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_Reflections.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/reflections/art-gender-and-identity/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/reflections/black-native-identity-and-futurity/index": {
+    "file": "pages/reflections/black-native-identity-and-futurity/index.js",
+    "src": "src/routes/reflections/black-native-identity-and-futurity/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_Reflections.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/reflections/black-native-identity-and-futurity/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/reflections/motherhood/index": {
+    "file": "pages/reflections/motherhood/index.js",
+    "src": "src/routes/reflections/motherhood/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js",
+      "_SlideIn.js",
+      "_Reflections.js",
+      "_SurveyBanner.js"
+    ],
+    "css": [
+      "assets/pages/reflections/black-native-identity-and-futurity/index.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "src/routes/resources/index": {
+    "file": "pages/resources/index.js",
+    "src": "src/routes/resources/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_paths.js": {
+    "file": "chunks/paths.js"
+  },
+  "_SlideIn.js": {
+    "file": "chunks/SlideIn.js",
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "assets/SlideIn.css"
+    ]
+  },
+  "_lg-share.js": {
+    "file": "chunks/lg-share.js"
+  },
+  "_ArtistsMenu.js": {
+    "file": "chunks/ArtistsMenu.js",
+    "imports": [
+      "_lg-share.js",
+      "_index.js",
+      "_paths.js"
+    ],
+    "css": [
+      "assets/ArtistsMenu.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "_SurveyBanner.js": {
+    "file": "chunks/SurveyBanner.js",
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "assets/SurveyBanner.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  },
+  "_lg-thumbnail.js": {
+    "file": "chunks/lg-thumbnail.js",
+    "imports": [
+      "_lg-share.js"
+    ]
+  },
+  "_Reflections.js": {
+    "file": "chunks/Reflections.js",
+    "imports": [
+      "_index.js",
+      "_paths.js"
+    ],
+    "css": [
+      "assets/Reflections.css"
+    ],
+    "assets": [
+      "assets/lg.ttf",
+      "assets/lg.woff",
+      "assets/lg.svg",
+      "assets/loading.gif"
+    ]
+  }
+}

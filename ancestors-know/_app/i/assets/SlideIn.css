@@ -1,0 +1,123 @@
+/* FILE BEING ARCHIVED FOR BACKUP KNOWKEDGE */
+
+.slide-in-from-top.svelte-u3y2hv {
+  opacity: 0;
+  /* transform: translateY(-50px);
+  transition: all 0.5s ease-out; */
+  /* transition-delay: 5000ms; */
+}
+.slide-in-from-bottom.svelte-u3y2hv {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-out;
+}
+.slide-in-from-left.svelte-u3y2hv {
+  opacity: 0;
+  transform: translate(-150px);
+  transition: all 1s ease-out;
+}
+.slide-in-from-right.svelte-u3y2hv {
+  opacity: 0;
+  transform: translate(150px);
+  transition: all 1s ease-out;
+}
+.slide-in-from-center.svelte-u3y2hv {
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+.slide-in-end.svelte-u3y2hv {
+  opacity: 1;
+  transform: translate(0) scale(1);
+}
+
+.ancestors-text {
+  animation: ancestors-text 1s ease 300ms normal forwards;
+}
+
+.know-text {
+  animation: know-text 1s ease 300ms normal forwards;
+}
+
+.who-we-are-text {
+  animation: who-we-are-text 1s ease 300ms normal forwards;
+}
+
+.artist-name-fade {
+  animation: artist-name-fade 2.5s ease 100ms backwards;
+}
+
+.artist-name-slide {
+  animation: artist-name-slide 1.5s ease 100ms normal forwards;
+}
+
+.title-fade {
+  animation: title-fade 2s ease forwards;
+}
+
+.title-hidden {
+  opacity: 0;
+}
+
+@keyframes ancestors-text {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes know-text {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes who-we-are-text {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes artist-name-fade {
+  from {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes artist-name-slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes title-fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

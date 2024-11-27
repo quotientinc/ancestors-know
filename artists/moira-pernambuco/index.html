@@ -246,7 +246,7 @@
                     class="svelte-gu3tcc"
                   />
                 </div>
-                <div class="toggle svelte-gu3tcc" tabindex="0">
+                <button class="toggle svelte-gu3tcc" tabindex="0">
                   <svg id="hamburger" aria-hidden="true" class="svelte-gu3tcc">
                     <use
                       href="#symbol-menu"
@@ -259,7 +259,7 @@
                       xlink="http://www.w3.org/1999/xlink"
                     ></use>
                   </svg>
-                </div>
+                </button>
               </summary>
 
               <div id="nav-wrapper" class="svelte-gu3tcc">
@@ -640,7 +640,7 @@
                   sveltekit:reload
                   href="../../transcripts/Ancestors-Know-Who-We-Are-Moira-Pernambuco-interview.pdf"
                   class="transcript svelte-tuhwmi"
-                  >Transcript</a
+                  >Transcript (PDF)</a
                 >
                 <div id="lvideo2" class="svelte-tuhwmi">
                   <a
@@ -830,10 +830,10 @@
                 /></a>
               </div>
               <div class="menu svelte-1u4zws">
-                <a href="https://www.si.edu/privacy/" class="svelte-1u4zws"
+                <a href="https://www.si.edu/privacy/" class="svelte-1u4zws" target="_blank"
                   >Privacy</a
                 ><span class="svelte-1u4zws">|</span
-                ><a href="https://www.si.edu/termsofuse/" class="svelte-1u4zws"
+                ><a href="https://www.si.edu/termsofuse/" class="svelte-1u4zws" target="_blank"
                   >Terms of Use</a
                 ><span class="svelte-1u4zws">|</span>© 2024 Smithsonian
                 Institution
@@ -1047,6 +1047,7 @@ starts running -->
 		}
 	</style>
 </noscript> -->
+  <script src="_app/i/chunks/arrowNavMenu.js"></script>
   <!--FANCYAPPS-->
   <script src="../../_app/i/chunks/fancybox.js"></script>
   <script type="module" src="../../_app/i/pages/index.js"></script>
@@ -1066,6 +1067,13 @@ starts running -->
           right: ["iterateZoom", "close"],
         },
       },
+      on: {
+        done: (fancybox, slide) => {
+          // Fancybox sets image alt to be redundant with caption.
+          // Manually make alt tag null after Fancybox runs.
+          $(".fancybox-image").attr("alt", "");
+        }
+      }
     });
   </script>
   <script>

@@ -250,7 +250,7 @@
                     class="svelte-gu3tcc"
                   />
                 </div>
-                <div class="toggle svelte-gu3tcc" tabindex="0">
+                <button class="toggle svelte-gu3tcc" tabindex="0">
                   <svg id="hamburger" aria-hidden="true" class="svelte-gu3tcc">
                     <use
                       href="#symbol-menu"
@@ -263,7 +263,7 @@
                       xlink="http://www.w3.org/1999/xlink"
                     ></use>
                   </svg>
-                </div>
+                </button>
               </summary>
 
               <div id="nav-wrapper" class="svelte-gu3tcc">
@@ -668,7 +668,7 @@
                   sveltekit:reload
                   href="../../transcripts/Ancestors-Know-Who-We-Are-Rodslen-Brown-video-r.pdf"
                   class="transcript svelte-tuhwmi"
-                  >Transcript</a
+                  >Transcript (PDF)</a
                 >
               </div>
             </div>
@@ -850,10 +850,10 @@
                 /></a>
               </div>
               <div class="menu svelte-1u4zws">
-                <a href="https://www.si.edu/privacy/" class="svelte-1u4zws"
+                <a href="https://www.si.edu/privacy/" class="svelte-1u4zws" target="_blank"
                   >Privacy</a
                 ><span class="svelte-1u4zws">|</span
-                ><a href="https://www.si.edu/termsofuse/" class="svelte-1u4zws"
+                ><a href="https://www.si.edu/termsofuse/" class="svelte-1u4zws" target="_blank"
                   >Terms of Use</a
                 ><span class="svelte-1u4zws">|</span>© 2024 Smithsonian
                 Institution
@@ -1014,6 +1014,7 @@
     <script
     src="../../_app/i/chunks/jquery-3.7.1.js"
 ></script>
+    <script src="_app/i/chunks/arrowNavMenu.js"></script>
     <script src="../../_app/i/assets/check-visible.js"></script>
   
       <script>
@@ -1054,6 +1055,13 @@
           right: ["iterateZoom", "close"],
         },
       },
+      on: {
+        done: (fancybox, slide) => {
+          // Fancybox sets image alt to be redundant with caption.
+          // Manually make alt tag null after Fancybox runs.
+          $(".fancybox-image").attr("alt", "");
+        }
+      }
     });
   </script>
 
